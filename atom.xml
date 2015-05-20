@@ -1,28 +1,81 @@
----
-layout: nil
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>HARP Grant Program</title>
+ <link href="http://harpgrantprogram.github.io/atom.xml" rel="self"/>
+ <link href="http://harpgrantprogram.github.io/"/>
+ <updated>2015-05-20T14:11:48-04:00</updated>
+ <id>http://harpgrantprogram.github.io</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name></name>
+   <email></email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>HARP Grant Program</title>
+   <link href="http://harpgrantprogram.github.io/2015/05/20/our-mission/"/>
+   <updated>2015-05-20T00:00:00-04:00</updated>
+   <id>http://harpgrantprogram.github.io/2015/05/20/our-mission</id>
+   <content type="html">&lt;h1&gt;Our Mission&lt;/h1&gt;
+
+&lt;p&gt;The mission of the &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program is to encourage students, particularly those just starting at a university, to collaborate and being to work on projects that are both interesting to them and beneficial to the community that they live in. We seek to do this by provide passionate students with the resources, opportunities, connections, and support to take action on their ideas and aspirations. Ultimately, the goals of the program are to enhance the learning experiences that students have by giving them the necessary tools to gain knowledge and experience through completing hands-on research and projects. The program also aims to encourage students to be socially conscious and aware of the significance their roles as students and future workers have and the impact their actions can have on topics like social justice and environmentalism.&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;
+&lt;h3&gt;Why The Residence Halls?&lt;/h3&gt;
+This program’s niche is in early engagement. We do not aim to provide capstone projects or participation in a larger organization. Rather, we want residents to leverage their talents to make a stand-alone contribution to an existing organization or team. The residence halls is the perfect environment to find young talent interested in such projects.
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program envisions accomplishing this goal by providing students with funding for their research and project ideas, connecting them with mentors to guide them through their experiences and provide feedback, and connecting them with other students of diverse skill, experience and background to help them all succeed together.&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt; 
+&lt;h3&gt;Scope&lt;/h3&gt;
+For the moment, the &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program is being targeted at residence halls at UC Berkeley, but we hope that as the program grows, we can expand further or inspire others to set up similar programs. 
+&lt;/div&gt;
+
+&lt;h1&gt;History&lt;/h1&gt;
+
+&lt;p&gt;The &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program was born from a vision to place the power and locus of control into the hands of residents living and learning in residence halls and started with a humble source of inspiration. Students in our residence halls began to express interest not only in attending events that were being organized by Hall Staff, but also showed initiative toward planning and running events themselves, albeit with some support and guidance from Hall Staff. In addition to recreational events and projects, some residents also expressed interest in pursuing technical and academic projects but then found that they did not have the resources to pursue these goals. Thus, the &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program was developed to address this need demonstrated by students, with the belief that providing them with resources and opportunities will result in the enhancement of the experience and quality of life of students in the residence halls. We hope that this program will become an effective tool to enhance both the community students live in and their own sense of ability and growth.&lt;/p&gt;
+
+&lt;h1&gt;Who We Are&lt;/h1&gt;
+
+&lt;p&gt;At its inception, the team behind the &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program consisted of just four students who have been engaged in the residence halls via various outlets. We&amp;#39;ve been active participants in the community through event planning, our own (small) projects and most of us are on hall staff and have seen the positive impact even small contributions can have. Given time, we hope to expand our executive team to a board of students that work with the professional residence hall staff in order to make the program more widely accessible to students.&lt;/p&gt;
+
+&lt;h1&gt;Example Timeline&lt;/h1&gt;
+
+&lt;p&gt;The following is an example of the timeline a single year&amp;#39;s grant program might follow:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h4&gt;Two Weeks&lt;/h4&gt;
+
+&lt;p&gt;General publicizing finished, residents are aware of the opportunities provided by the program.
+&lt;h4&gt;Four Weeks&lt;/h4&gt;
+Grant applications will be due. A panel of professors, staff and other volunteers will have been assembled to review applications. 
+&lt;h4&gt;Six Weeks&lt;/h4&gt;
+All applications have been processed and grant recipients have been selected.
+&lt;h4&gt;Eight Weeks&lt;/h4&gt;
+All grant recipients have recieved half of their funding and been connected with mentors appropriatelly suited for their project/research.
+&lt;h4&gt;End of First Semester&lt;/h4&gt;
+Progress reports by grant recipients are due, along with progress evaluations by mentors. These reports will give us a sense of how the recipients are progressing on their project.
+&lt;h4&gt;Start of Second Semester&lt;/h4&gt;
+Recipients who have shown progress will recieve the other half of their grant money. Recipients who have not shown sufficient progress will have one addition month to do so.
+&lt;h4&gt;One Month Into Second Semester&lt;/h4&gt;
+Recipients who failed the last progress check must show significant progress or they will be dropped from the program.
+&lt;h4&gt;Two Weeks Before Dead Week&lt;/h4&gt;
+Final project summaries and documentation due.
+&lt;h4&gt;One Week Before Dead Week&lt;/h4&gt;
+Small event is held were recipients who completed the program can show off what they&amp;#39;ve done. Note that recipients don&amp;#39;t have be entirely finished  with their project if it is large, but should have gotten a lot of work done on it throughout the year. Tenative: Awards and recognitions given to outstanding projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Partners and Supporters&lt;/h1&gt;
+
+&lt;p&gt;We intend to collaborate with campus organizations such as the residence hall theme program &lt;abrr title=&quot;Women in Science and Engineering&quot;&gt;WISE&lt;/abrr&gt; and local nonprofits in an effort to provide freshmen with resources and funding for the &lt;abbr title=&quot;Hall Association Research and Project&quot;&gt;HARP&lt;/abbr&gt; Grant Program. The role of each agency partner is to provide the program with financial support and access to resources for student projects. All agencies will facilitate access to resources and help the program grow. Depending on project topics and breadth, each sponsor can provide technological or intellectual support to help a student’s project flourish and grow. Ultimately, a successful partnership between the HARP program and an agency should help students develop their ideas and engage with their community.&lt;/p&gt;
+
+&lt;h1&gt;Why We Need Your Help&lt;/h1&gt;
+
+&lt;p&gt;Cal students have the potential to change their communities through their innovative and creative ideas, but they currently lack the financial means and guidance to initiate their own projects when they begin their college careers. To harness the untapped potential of each student, the HARP program needs additional funding from local agencies to help launch the program and acquire faculty mentors who can provide guidance, tools and opportunities to individual students. Although many Cal students possess an amazing degree of talent, intelligence and creativity, freshman students living in the dorms do not always have access to the connections and tools necessary to begin developing their ideas into collaborative projects. &lt;/p&gt;
+</content>
  </entry>
- {% endfor %}
+ 
 
 </feed>
